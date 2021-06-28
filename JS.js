@@ -1,2 +1,8 @@
-var man = { name: "kims", age: 26, height: 183 };
-console.log(man.name);
+function return_test() {
+  return;
+}
+console.log("X");
+
+function print(msg) {
+  console.log(msg);
+}
