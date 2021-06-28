@@ -1,8 +1,2 @@
-var height = prompt("몸무게를 입력해주세요");
-console.log(height, typeof height);
-
-var height_int = parseInt(height);
-console.log(height_int, typeof height_int);
-
-var height_float = parseFloat(height);
-console.log(height_float, typeof height_float);
+var man = { name: "kims", age: 26, height: 183 };
+console.log(man.name);
