@@ -8,9 +8,12 @@
   <body>
     <h1>로또 번호 추첨기 1</h1>
     <script>
-      var = lotto[];
-      for(let i=0; i<6; i++){
-          lotto.push(parseInt(Math.random() * 45 + 1));
+      let lotto = [];
+      for (let i = 0; i < 6; i++) {
+        let num = parseInt(Math.random() * 45 + 1);
+        if (lotto.indexOf(num) == -1) {
+          lotto.push(num);
+        }
       }
       document.write(lotto);
     </script>
